@@ -10,7 +10,7 @@ app.post ('/', (req, res) => {
   res.status(201).send('POST /')
 })
 app.put ('/', (req, res) => {
-  res.send('PUT /')
+  res.status(400).send('PUT /')
 })
 app.delete ('/', (req, res) => {
   res.send('DELETE /')
